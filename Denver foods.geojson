@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Restaurant": "US Thai Cafe",
+        "Review": "5 Star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05405902862549,
+          39.75294761046368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Restaurant": "Phonatic",
+        "Review": "4.5 Star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.98380661010742,
+          39.740169615186986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Restaurant": "Taco Tequila Whiskey",
+        "Review": "4 Star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03009080886841,
+          39.761913064931434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Restaurant": "Yard House",
+        "Review": "5 Star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.98957335948944,
+          39.74288792171743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Restaurant": "Mad Greens ",
+        "Review": "4 Star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.99256134033203,
+          39.745667990772155
+        ]
+      }
+    }
+  ]
+}
