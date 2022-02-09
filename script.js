@@ -283,7 +283,7 @@ var states = {
 
 L.geoJSON(states, {
     style: function(feature) {
-        switch (feature.properties.["Has Lakes"]) {
+        switch (feature.properties["Has lakes"]) {
             case 'Yes': return {color: "#C8C9C7"};
             case 'No':   return {color: "#003DA5"};
         }
