@@ -85,18 +85,11 @@ var geojsonFeature = {
     }
   ]
 };
-var marker1 = L.marker([39.753, -105.053]).addTo(Denverfood);
-var marker2 = L.marker([39.741, -104.977]).addTo(Denverfood);
-var marker3 = L.marker([39.762, -105.030]).addTo(Denverfood);
 
 
-marker1.bindPopup("<b>Resturant 1</b><br>US Thai Cafe").openPopup();
-marker2.bindPopup("<b>Resturant 2</b><br>Phở-natic").openPopup();
-marker3.bindPopup("<b>Resturant 1</b><br>TACOS TEQUILA WHISKEY").openPopup();
+var feat = L.geoJSON(geojsonFeature).addTo(map);
 
-//var feat = L.geoJSON(geojsonFeature).addTo(map);
-
-//feat.bindPopup("<b>US Thai Cafe 1</b><br> best Thai food in town .").openPopup();
+feat.bindPopup("<b>US Thai Cafe 1</b><br> best Thai food in town .").openPopup();
 //feat.bindPopup("<b>Phonatic 2 </b><br> best Pho in town .").openPopup();
 //feat.bindPopup("<b>Taco Tequila Whiskey 3</b><br> best Taco in town .").openPopup();
 //feat.bindPopup("<b>Yard House  4 </b><br> best location in downtown .").openPopup();
