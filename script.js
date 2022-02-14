@@ -89,6 +89,11 @@ var geojsonFeature = {
 var feat = L.geoJSON(geojsonFeature).addTo(map);
 
 feat.bindPopup("<b>US Thai Cafe 1</b><br> best Thai food in town .").openPopup();
+feat.bindPopup("<b>US Thai Cafe 1</b><br> best Thai food in town .").openPopup();
+feat.bindPopup("<b>US Thai Cafe 1</b><br> best Thai food in town .").openPopup();
+feat.bindPopup("<b>US Thai Cafe 1</b><br> best Thai food in town .").openPopup();
+feat.bindPopup("<b>US Thai Cafe 1</b><br> best Thai food in town .").openPopup()
+
 
 var myLines = {
   "type": "FeatureCollection",
