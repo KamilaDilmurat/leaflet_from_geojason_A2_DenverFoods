@@ -15,7 +15,7 @@ var marker1 = L.marker([39.753, -105.053]).addTo(Denverfood);
 var marker2 = L.marker([39.741, -104.977]).addTo(Denverfood);
 var marker3 = L.marker([39.762, -105.030]).addTo(Denverfood);
 var marker4 = L.marker([39.743, -104.990]).addTo(Denverfood);
-var marker5 = L.marker([39,746,-104.993]).addTo(Denverfood);
+var marker5 = L.marker([39,746, -104.993]).addTo(Denverfood);
 
 
 marker1.bindPopup("<b>Resturant 1</b><br>US Thai Cafe").openPopup();
