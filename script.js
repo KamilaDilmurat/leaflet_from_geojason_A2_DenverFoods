@@ -89,10 +89,10 @@ var geojsonFeature = {
 var feat = L.geoJSON(geojsonFeature).addTo(map);
 
 feat.bindPopup("<b>US Thai Cafe 1</b><br> best Thai food in town .").openPopup();
-feat.bindPopup("<b>US Thai Cafe 1</b><br> best Thai food in town .").openPopup();
-feat.bindPopup("<b>US Thai Cafe 1</b><br> best Thai food in town .").openPopup();
-feat.bindPopup("<b>US Thai Cafe 1</b><br> best Thai food in town .").openPopup();
-feat.bindPopup("<b>US Thai Cafe 1</b><br> best Thai food in town .").openPopup()
+feat.bindPopup("<b>Phonatic 2 </b><br> best Pho in town .").openPopup();
+feat.bindPopup("<b>Taco Tequila Whiskey 3</b><br> best Taco in town .").openPopup();
+feat.bindPopup("<b>Yard House  4 </b><br> best location in downtown .").openPopup();
+feat.bindPopup("<b>Mad Greens 5</b><br> Mark twain salad is my fav  .").openPopup()
 
 
 var myLines = {
@@ -178,119 +178,3 @@ L.geoJSON(myLines, {
     style: myStyle
 }).addTo(map);
 
-var states = {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Crown HillPark",
-        "Has lakes": "Yes "
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -105.109806060791,
-              39.75484472209399
-            ],
-            [
-              -105.08199691772461,
-              39.75484472209399
-            ],
-            [
-              -105.08199691772461,
-              39.76117904674866
-            ],
-            [
-              -105.109806060791,
-              39.76117904674866
-            ],
-            [
-              -105.109806060791,
-              39.75484472209399
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Sloan's Lake Park ",
-        "Has lakes": "Yes "
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -105.05298614501953,
-              39.74428621972816
-            ],
-            [
-              -105.0347900390625,
-              39.74428621972816
-            ],
-            [
-              -105.0347900390625,
-              39.753129075575174
-            ],
-            [
-              -105.05298614501953,
-              39.753129075575174
-            ],
-            [
-              -105.05298614501953,
-              39.74428621972816
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "City Park",
-        "Has lakes": "Yes "
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -104.95943069458008,
-              39.74375825213213
-            ],
-            [
-              -104.94089126586914,
-              39.74375825213213
-            ],
-            [
-              -104.94089126586914,
-              39.754184863105365
-            ],
-            [
-              -104.95943069458008,
-              39.754184863105365
-            ],
-            [
-              -104.95943069458008,
-              39.74375825213213
-            ]
-          ]
-        ]
-      }
-    }
-  ]
-};
-
-L.geoJSON(states, {
-    style: function(feature) {
-        switch (feature.properties["Has lakes"]) {
-            case 'Yes': return {color: "#C8C9C7"};
-            case 'No':   return {color: "#003DA5"};
-        }
-    }
-}).addTo(map);
