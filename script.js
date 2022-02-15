@@ -22,4 +22,4 @@ marker1.bindPopup("<b>Resturant 1</b><br>US Thai Cafe").openPopup();
 marker2.bindPopup("<b>Resturant 2</b><br>Phở-natic").openPopup();
 marker3.bindPopup("<b>Resturant 3</b><br>TACOS TEQUILA WHISKEY").openPopup();
 marker4.bindPopup("<b>Resturant 4</b><br>Yarh House").openPopup();
-marker5.bindPopup("<b>Resturant 5 </b><br>Mad Greens ").openPopup();
+marker5.bindPopup("<b>Resturant 5</b><br>Mad Greens ").openPopup();
