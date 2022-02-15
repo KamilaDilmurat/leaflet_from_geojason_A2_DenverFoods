@@ -1,4 +1,4 @@
-var Denverfood = L.map('Denverfood').setView([39.75621,-104.99404], 10);
+var Denverfood = L.map('Denverfood').setView([39.75621,-104.99404], 6);
 
 
 // load a tile layer
